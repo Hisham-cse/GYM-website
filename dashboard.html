@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dashboard - Gym and Fitness</title>
+    <style>
+        /* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply some basic styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#logout-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the dashboard widgets */
+.user-info,
+.fitness-progress {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-info h2,
+.fitness-progress h2 {
+    color: #333;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+    </style>
+</head>
+<body>
+     <header class="header">
+    <a href="#" class="logo">
+        <i class="fas fa-dumbbell"></i>FitNess
+    </a>
+    <nav class="navbar">
+        <a href="dashboard.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="shop.html">shop</a>
+        <a href="#">|</a>
+        <a  href="index1.html" ><button id="logout-button">Logout</button></a>
+        
+    </nav>
+    </header>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+        <h1>Welcome to Your Dashboard</h1>
+    
+  
+    <div class="user-info">
+        <h2>User Information</h2>
+        <p><strong>Name:</strong> Hisham </p>
+        <p><strong>Email:</strong> hisham.cs.engineer@gmail.com</p>
+        <p><strong>Membership:</strong> Premium</p>
+    </div>
+
+    <div class="fitness-progress">
+        <h2>Fitness Progress</h2>
+        <p><strong>Weight:</strong> 70 kg</p>
+        <p><strong>Body Fat %:</strong> 15%</p>
+        <p><strong>Workout Days:</strong> 20</p>
+    </div>
+
+    <!-- Add more dashboard widgets here -->
+
+    <footer>
+        <p>&copy; 2023 Gym and Fitness. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
